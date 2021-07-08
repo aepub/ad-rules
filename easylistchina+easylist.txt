@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yL0+nua3bqqZ/mQERzOqag
-! Version: 202107081311
+! Checksum: ngQDV72M0LCxsuI7GzaRzg
+! Version: 202107081711
 ! Title: EasyList China+EasyList
-! Last modified: 08 Jul 2021 13:11 UTC
+! Last modified: 08 Jul 2021 17:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1298,6 +1298,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||887251.com^
+||joannalaura.com^
 ||vainews.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -8815,6 +8817,7 @@ _yad_jsonp_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||ssp.21ic.com^
+||pstatp.com/origin/pgc-image/bb2ebb31f0964de3b36ba5f5b6fcc521
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 youzhidy.com##IFRAME[src^="data"]
@@ -13868,8 +13871,7 @@ eyuyao.com##div[id^="x_ad_"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
 oschina.net##div[name^="index_banner_"]
-mp4er.com##div[onclick*=".exing101.com"]
-mp4er.com##div[onclick*=".exing113.com"]
+mp4er.com##div[onclick*="exing"]
 mp4er.com##div[onclick*="exvip23.com"]
 jsr9.com##div[onclick*="location"]
 nfmovies.com##div[onclick="openurl()"]
@@ -49221,6 +49223,7 @@ _popunder+$popup
 ##.widget_adswidget3-quick-adsense
 ##.widget_adswidget4-quick-adsense
 ##.widget_adv_location
+##.widget_adv_text
 ##.widget_advads_ad_widget
 ##.widget_advert
 ##.widget_advert_content
